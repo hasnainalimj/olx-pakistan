@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Abc</title>
+	<link rel="stylesheet" type="text/css" href="css/detailpage.css">
+	<link rel="stylesheet" type="text/css" href="../../css/index-styling.css">
+	<link rel="stylesheet" type="text/css" href="../../css/authentication-styling.css">
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="../../assets/logo.png" type="image/x-icon" />
+</head>
+
+<body>
+	<header class="header">
+		<a href="../../index.html">
+			<img src="../../assets/logo.png" class="logo">
+		</a>
+		<h5 class="title">Pakistan's Largest Marketplace</h5>
+		<button type="button" class="btn btn-warning nevigateLogin" onclick="gotoSubmitAd()">Submit an Ad</button>
+		<!-- <button type="button" class="btn btn-danger logout" onclick="logOut()" id="btnLogout">Logout</button> -->
+		<div class="dropdown" id="myaccounts">
+			<button id="showname">My Account</button>
+			<div>
+				<a href="../faviorites.html">Faviorites</a>
+				<a href="../../mychats/mychats.html">Chats</a>
+				<a href="../../myads/myads.html">My Ads</a>
+				<button type="button" class="btn btn-danger" onclick="logOut()">Logout</button>
+			</div>
+		</div>
+	</header>
+
+	<div class="container" id="ad-container">
+		<center>
+			<img src="../../assets/loader.gif" id="loading" style="width: 100px; height: 100px; margin-top: 30px;"/>
+		</center>
+		<!-- <h1 class="ads-titles">Samsung S7 For Sale</h1>
+		<p class="ads-city">City : <span class="here-city">Karachi</span></p>
+		<p class="ads-id">Ad Id : <span class="here-id">45488711asd184652qA</span></p>
+		<p class="ads-date">Added At : <span class="here-date">25-June-2017 8:35 AM</span></p>
+		<br/>
+		<br/>
+		<br/>
+		<img src="../../assets/2.jpg" class="ads-images">
+		<img src="../../assets/2.jpg" class="ads-images">
+		<img src="../../assets/2.jpg" class="ads-images">
+		<img src="../../assets/2.jpg" class="ads-images">
+		<img src="../../assets/2.jpg" class="ads-images">
+		<br/>
+		<br/>
+		<p class="ads-catagory">Catagory : <span class="here-catagory">Mobiles</span></p>
+		<div class="ads-description">
+			The Quick Brown Fox Jumps Over The Lazy Dog The Quick Brown Fox Jumps Over The Lazy Dog The Quick Brown Fox Jumps Over The Lazy Dog The Quick Brown Fox Jumps Over The Lazy Dog.
+		</div>
+		<br/>
+		<div class="adder-details">
+			<h5 class="adder-name">Hasnain Ali</h>
+			<h5 class="adder-phone">03102932665</h5>
+			<h3 class="adder-price">Rs: <span class="here-price">10000</span></h3>
+			<button class="btn btn-warning btnSendMessage" id="btnChat">Send Message</button>
+		</div> -->
+	</div>
+
+
+	<br/>
+	<br/>
+	<hr/>
+	<center>
+		<span class="footer-text">OLX PAKISTAN BECH DY :)</span>
+	</center>
+	<span class="developer">Developed By: Hasnain Ali</span>
+	<hr/>
+
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+	<script type="text/javascript" src="js/detailpage.js"></script>
+</body>
+
+</html>

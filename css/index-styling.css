@@ -1,0 +1,442 @@
+
+.icons-container{
+	margin-top: 100px;
+	width: 550px;
+	height: 200px;
+	cursor: pointer;
+}
+
+.icons{
+	margin: 20px;
+}
+
+.main-container{
+	margin-top: 30px;
+}
+
+.ad-div{
+	width: 700px;
+	height: 200px;
+	margin-left: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #DCDCDC;
+	transition: background-color 2s;
+}
+
+.ad-div:hover{
+	background-color: #20c997;
+}
+
+.star{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.star:hover{
+	color: red;
+}
+
+.img-container{
+	width: 150px;
+	height: 150px;
+	margin: 23px;
+	cursor: pointer;
+	float: left;
+}
+
+.ad-details{
+	width: 400px;
+	height: 150px;
+	float: right;
+	margin-right: 22px;
+	margin-top: 23px;
+	cursor: pointer;
+}
+
+.ad-img{
+	width: inherit;
+	height: inherit;
+	border-radius: 0px;
+}
+
+.ad-title{
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: underline;
+}
+
+.ad-description{
+	font-size: 14px;
+}
+
+.ad-catagory{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-city{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-price{
+	font-size: 26px;
+	font-weight: bold;
+	color: #FF8C00;
+}
+
+.ad-date{
+	float: right;
+	font-size: 12px;
+	color: #696969;
+	margin-top: 15px;
+}
+
+@media (min-width: 250px) and (max-width: 359px){
+
+.logout{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	font-weight: bold !important;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.icons-container{
+	margin-top: 100px;
+	width: 265px;
+	height: 350px;
+	cursor: pointer;
+}
+
+.icons{
+	margin: 18px;
+}
+
+.main-container{
+	margin-top: 30px;
+}
+
+.ad-div{
+	width: 250px;
+	height: 400px;
+	margin-left: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #DCDCDC;
+	transition: background-color 2s;
+}
+
+.ad-div:hover{
+	background-color: #20c997;
+}
+
+.star{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.img-container{
+	width: 246px;
+	height: 150px;
+	cursor: pointer;
+	margin-left: 2px;
+}
+
+.ad-details{
+	width: 200px;
+	height: 130px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.ad-img{
+	width: inherit;
+	height: inherit;
+}
+
+.ad-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.ad-description{
+	display: none;
+}
+
+.ad-catagory{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-city{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-price{
+	font-size: 26px;
+	font-weight: bold;
+	color: #FF8C00;
+}
+
+.ad-date{
+	float: right;
+	font-size: 10px;
+	color: #696969;
+}
+}
+
+@media (min-width: 250px) and (max-width: 550px){
+
+/* .logout{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	font-weight: bold !important;
+	margin-left: 5px;
+	cursor: pointer;
+} */
+
+.icons-container{
+	margin-top: 100px;
+	width: 265px;
+	height: 350px;
+	cursor: pointer;
+	margin-left: 30px;
+}
+
+.icons{
+	margin: 18px;
+}
+
+.main-container{
+	margin-top: 30px;
+}
+
+.ad-div{
+	width: 250px;
+	height: 400px;
+	margin-left: 35px;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #DCDCDC;
+	transition: background-color 2s;
+}
+
+.ad-div:hover{
+	background-color: #20c997;
+}
+
+.star{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: inline;
+}
+
+.star:hover{
+	color: red;
+}
+
+.img-container{
+	width: 250px;
+	height: 150px;
+	cursor: pointer;
+	margin-left: 0px;
+}
+
+.ad-details{
+	width: 200px;
+	height: 130px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.ad-img{
+	width: inherit;
+	height: inherit;
+	padding: 2px;
+}
+
+.ad-title{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.ad-description{
+	display: none;
+}
+
+.ad-catagory{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-city{
+	font-size: 12px;
+	color: #696969;
+}
+
+.ad-price{
+	font-size: 26px;
+	font-weight: bold;
+	color: #FF8C00;
+}
+
+.ad-date{
+	float: right;
+	font-size: 10px;
+	color: #696969;
+}
+
+/* .dropdown{
+    display:inline-block;
+    position:relative;
+    margin-top: 20px !important;
+    margin-left: 5px;
+  }
+
+  .dropdown button{
+  	width: 120px;
+    border:none;
+    padding:8px 16px;
+    background-color:#007bff;
+    color:white;
+    transition:.3s;
+    cursor:pointer;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold !important;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  
+  .dropdown:hover button{
+    background-color:#6610f2;
+  }
+  
+  .dropdown div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown div a{
+    display:block;
+    text-decoration:none;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+  }
+  
+  .dropdown div a:hover{
+    background-color:#007bff;
+    color:#fff;
+  }
+
+  .dropdown div button{
+    display:block;
+    text-decoration:none;
+    background-color: red !important;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+    border-radius: 0px !important;
+  }
+  
+  .dropdown div button:hover{
+    background-color:#dc3545 !important;
+    color:#fff;
+  } */
+
+
+}
+
+.dropdown{
+    display:inline-block;
+    position:relative;
+    margin-top: 32px;
+    margin-left: 5px;
+  }
+
+  .dropdown button{
+  	width: 120px;
+    border:none;
+    padding:8px 16px;
+    background-color:#007bff;
+    color:white;
+    transition:.3s;
+    cursor:pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover button{
+    background-color:#6610f2;
+  }
+  
+  .dropdown div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown div a{
+    display:block;
+    text-decoration:none;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+  }
+  
+  .dropdown div a:hover{
+    background-color:#007bff;
+    color:#fff;
+  }
+
+  .dropdown div button{
+    display:block;
+    text-decoration:none;
+    background-color: red !important;
+    padding:8px;
+    color:#000;
+    transition:.1s;
+    white-space:nowrap;
+    border-radius: 0px !important;
+  }
+  
+  .dropdown div button:hover{
+    background-color:#dc3545 !important;
+    color:#fff;
+  }

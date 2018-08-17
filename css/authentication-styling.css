@@ -1,0 +1,351 @@
+.header{
+	width: 1024px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	border-bottom: #D3D3D3 solid 1px;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.logo2{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.title{
+	float: right;
+	margin-top: 40px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+
+.nevigateLogin{
+	height: 40px;
+	margin-top: 32px;
+	margin-left: 450px;
+	color: #FFF !important;
+	font-weight: bold !important;
+	cursor: pointer;
+}
+
+
+.logout{
+	height: 40px;
+	margin-top: 32px;
+	color: #FFF !important;
+	width: auto;
+	font-weight: bold !important;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.footer-text{	
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.developer{
+	font-size: 10px;
+	float: right;
+}
+
+.loader{
+	width: 25px;
+	height: 25px;
+}
+
+.recordFound{
+	text-align: center;
+	font-size: 24px;
+	color: red;
+}
+
+@media (min-width: 250px) and (max-width: 365px){
+
+.title{
+	display: none;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.nevigateLogin{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	width: auto;
+	font-weight: bold !important;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.logout{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	width: auto;
+	font-weight: bold !important;
+	cursor: pointer;
+}
+
+.showname{
+	height: 30px;
+	line-height: 10px !important;
+}
+
+.dropdown{
+	margin-top: 20px;
+}
+}
+
+
+@media (min-width: 366px) and (max-width: 450px){
+
+.title{
+	display: none;
+}
+
+.logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 7px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+.nevigateLogin{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	width: auto;
+	font-weight: bold !important;
+	margin-left: 150px;
+	cursor: pointer;
+}
+
+.logout{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	width: auto;
+	font-weight: bold !important;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.showname{
+	height: 30px;
+	line-height: 10px !important;
+}
+
+.dropdown{
+	margin-top: 20px;
+}
+
+}
+
+@media (min-width: 451px) and (max-width: 500px){
+	.title{
+		display: none;
+	}
+	
+	.logo{
+		width: 50px;
+		height: 50px;
+		margin-top: 7px;
+		margin-left: 5px;
+		margin-bottom: 2px;
+	}
+	
+	.nevigateLogin{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 220px;
+		cursor: pointer;
+	}
+
+	.logout{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+	.showname{
+		height: 30px;
+		line-height: 10px !important;
+	}
+	
+	.dropdown{
+		margin-top: 20px;
+	}
+
+}
+
+@media (min-width: 501px) and (max-width: 620px){
+	.title{
+		display: block;
+		margin-top: 24px;
+		font-size: 12px !important;
+	}
+	
+	.logo{
+		width: 50px;
+		height: 50px;
+		margin-top: 7px;
+		margin-left: 5px;
+		margin-bottom: 2px;
+	}
+	
+	.nevigateLogin{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 110px;
+		cursor: pointer;
+	}
+
+	.logout{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+	.showname{
+		height: 30px;
+		line-height: 10px !important;
+	}
+	
+	.dropdown{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 621px) and (max-width: 700px){
+	.title{
+		display: block;
+		margin-top: 24px;
+		font-size: 16px !important;
+	}
+	
+	.logo{
+		width: 50px;
+		height: 50px;
+		margin-top: 7px;
+		margin-left: 5px;
+		margin-bottom: 2px;
+	}
+	
+	.nevigateLogin{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 110px;
+		cursor: pointer;
+	}
+
+	.logout{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+	.showname{
+		height: 30px;
+		line-height: 10px !important;
+	}
+	
+	.dropdown{
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 800px){
+	.title{
+		display: block;
+		margin-top: 20px;
+		font-size: 16px !important;
+	}
+	
+	.logo{
+		width: 50px;
+		height: 50px;
+		margin-top: 7px;
+		margin-left: 5px;
+		margin-bottom: 2px;
+	}
+	
+	.nevigateLogin{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 230px;
+		cursor: pointer;
+	}
+
+	.logout{
+		height: 30px;
+		line-height: 10px !important;
+		margin-top: 20px;
+		color: #FFF !important;
+		width: auto;
+		font-weight: bold !important;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+
+	.showname{
+		height: 30px;
+		line-height: 10px !important;
+	}
+	
+	.dropdown{
+		margin-top: 20px;
+	}
+}

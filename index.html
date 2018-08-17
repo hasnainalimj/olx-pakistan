@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Free classified in Pakistan</title>
+	<link rel="stylesheet" type="text/css" href="css/index-styling.css">
+	<link rel="stylesheet" type="text/css" href="css/authentication-styling.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+	<header class="header">
+		<a href="index.html">
+			<img src="assets/logo.png" class="logo">
+		</a>
+		<h5 class="title">Pakistan's Largest Marketplace</h5>
+		<button type="button" class="btn btn-warning nevigateLogin" onclick="gotoSubmitAd()">Submit Ad</button>
+		<!-- <button type="button" class="btn btn-danger logout" onclick="logOut()" id="btnLogout">Logout</button> -->
+		<div class="dropdown" id="myaccounts">
+			<button id="showname" class="showname">Account</button>
+			<div>
+				<a href="faviorites/faviorites.html">Faviorites</a>
+				<a href="mychats/mychats.html">Chats</a>
+				<a href="myads/myads.html">My Ads</a>
+				<button type="button" class="btn btn-danger" onclick="logOut()">Logout</button>
+			</div>
+		</div>
+	</header>
+	<br/>
+	<div class="container">
+		<input type="text" class="form-control col-md-12 float-left" id="txtSearch" placeholder="Search By Catagory.....">
+		<button type="submit" class="btn btn-primary float-right mt-2" onclick="btnSearch()" id="btnSearch">Search</button>
+	</div>
+
+	<div class="container">
+		<div class="icons-container">
+			<img src="assets/mobile-icon.png" class="icons" onclick="gotoMobiles()" title="Mobiles">
+			<img src="assets/bike-icon.png" class="icons" onclick="gotoBikes()" title="Bikes">
+			<img src="assets/car-icon.png" class="icons" onclick="gotoCars()" title="Cars">
+			<img src="assets/electronic-icon.png" class="icons" onclick="gotoElectronics()" title="Electronics">
+			<img src="assets/services-icon.png" class="icons" onclick="gotoServices()" title="Services">
+			<img src="assets/homes-icon.png" class="icons" onclick="gotoHomes()" title="Homes">
+			<img src="assets/jobs-icon.png" class="icons" onclick="gotoJobs()" title="Jobs">
+			<img src="assets/furniture-icon.png" class="icons" onclick="gotoFurnitures()" title="Furnitures">
+			<img src="assets/kids-icon.png" class="icons" onclick="gotoKids()" title="Kids">
+			<img src="assets/fashions-icon.png" class="icons" onclick="gotoFashions()" title="Fashions">
+			<img src="assets/books-icon.png" class="icons" onclick="gotoBooks()" title="Books">
+			<img src="assets/animals-icon.png" class="icons" onclick="gotoAnimals()" title="Animals">
+		</div>
+	</div>
+
+
+	<div class="main-container" id="main-div">
+		<center>
+			<img src="../assets/loader.gif" id="loading" style="width: 100px; height: 100px;" />
+		</center>
+		<!-- <div class="container">
+  			<div class="ad-div">
+  				<i class="fa fa-heart fa-2x star" title="Add To Faviorites"></i>
+  				<div class="img-container">
+  					<img src="assets/logo.png" class="ad-img">
+  				</div>
+  				<div class="ad-details">
+  					
+  					<h5 class="ad-title">Bike For Sale</h5>
+  					<h6 class="ad-catagory">Bikes</h6>
+  					<h6 class="ad-city">Karachi</h6>
+  					<h4 class="ad-price">Rs:25000</h4>
+  					<h6 class="ad-date">July 6, 2018 at 8:26:33 PM UTC+5</h6>
+  				</div>
+  			</div>
+  		</div>
+  		<br/> -->
+	</div>
+	<br/>
+	<br/>
+	<hr/>
+	<center>
+		<span class="footer-text">OLX PAKISTAN BECH DY :)</span>
+	</center>
+	<span class="developer">Developed By: Hasnain Ali</span>
+	<hr/>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-messaging.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</html>

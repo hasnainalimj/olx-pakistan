@@ -1,0 +1,29 @@
+{
+  "name": "OLX-Pakistan",
+  "short_name": "OLX",
+  "icons": [{
+    "src": "assets/1.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "assets/2.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "assets/3.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "assets/4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "assets/5.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFF00",
+  "theme_color": "#FFFF00"
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OLX-Animals</title>
+	<link rel="stylesheet" type="text/css" href="../css/index-styling.css">
+	<link rel="stylesheet" type="text/css" href="../css/authentication-styling.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="header">	
+		<a href="../index.html">
+            <img src="../assets/logo.png" class="logo">      
+        </a>
+		<h5 class="title">Pakistan's Largest Marketplace</h5>
+		<button type="button" class="btn btn-warning nevigateLogin" onclick="gotoSubmitAd()">Submit an Ad</button>
+		<!-- <button type="button" class="btn btn-danger logout" onclick="logOut()" id="btnLogout">Logout</button> -->
+		<div class="dropdown" id="myaccounts">
+  			<button id="showname" class="showname">My Account</button>
+  				<div>
+    				<a href="../faviorites/faviorites.html">Faviorites</a>
+    				<a href="../mychats/mychats.html">Chats</a>
+    				<a href="../myads/myads.html">My Ads</a>
+    				<button type="button" class="btn btn-danger" onclick="logOut()">Logout</button>
+  				</div>
+			</div>
+	</header>
+	<br/>
+  <div class="container">
+    	<input type="text" class="form-control col-md-12 float-left" id="txtSearch" placeholder="Search By Price.....">
+    	<button type="submit" class="btn btn-primary float-right mt-2" onclick="btnSearch()" id="btnSearch">Search</button>
+  </div>
+
+	<div class="main-container" id="main-div" style="margin-top: 150px;">
+		<center>
+			<img src="../assets/loader.gif" id="loading" style="width: 100px; height: 100px;" />
+		</center>
+		<!-- <div class="container">
+			<div class="ad-div">
+				<div class="img-container">
+					<img src="assets/logo.png" class="ad-img">
+				</div>
+				<div class="ad-details">
+					<h5 class="ad-title">Bike For Sale</h5>
+					<h6 class="ad-description">Bike For Sale In Very Cheap Price Urgent Sale.....</h6>
+					<h6 class="ad-catagory">Bikes</h6>
+					<h6 class="ad-city">Karachi</h6>
+					<h4 class="ad-price">Rs:25000</h4>
+					<h6 class="ad-date">July 6, 2018 at 8:26:33 PM UTC+5</h6>
+				</div>
+			</div>
+		</div>
+		<br/> -->
+	</div>
+	<br/>
+  <br/>
+  <hr/>
+  	<center>
+  		<span class="footer-text">OLX PAKISTAN BECH DY :)</span>		    			
+  	</center>
+  	<span class="developer">Developed By: Hasnain Ali</span>
+  <hr/>
+</body>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+	<script type="text/javascript" src="js/animals.js"></script>
+</html>

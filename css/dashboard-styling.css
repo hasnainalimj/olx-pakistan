@@ -1,0 +1,73 @@
+.ad-heading{
+	margin-left: 40px;
+	text-decoration: underline;
+}
+
+.margin-fileds{
+	margin-left: 40px;
+}
+
+.textArea{
+	width: 740px; 
+	height: 200px;
+}
+
+.choose-file{
+	margin-left: 40px;
+}
+
+.btnSubmit{
+	margin-left: 40px;
+	color: #FFF;
+	font-weight: bold;
+	width: 120px;
+}
+
+@media (min-width: 250px) and (max-width: 420px){
+
+.ad-heading{
+	margin-left: -14px;
+	text-decoration: underline;
+}
+
+.margin-fileds{
+	margin-left: -14px;
+}
+
+.choose-file{
+	margin-left: -14px;
+}
+
+.btnSubmit{
+	margin-left: -14px;
+}
+
+.textArea{
+	width: 330px; 
+	height: 200px;
+}
+
+}
+
+.logout{
+	height: 40px;
+	margin-top: 32px;
+	margin-left: 5px;
+	color: #FFF !important;
+	font-weight: bold !important;
+	cursor: pointer;
+}
+
+@media (min-width: 250px) and (max-width: 420px){
+
+.logout{
+	height: 30px;
+	line-height: 10px !important;
+	margin-top: 20px;
+	color: #FFF !important;
+	font-weight: bold !important;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+}

@@ -1,0 +1,44 @@
+.heading-fav{
+	margin-left: 155px;
+}
+
+.chat-container{
+	width: 100%;
+	height: 70px;
+	border: 1px solid red;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.user-image{
+	width: 60px;
+	height: 60px;
+	margin-top: 4px;
+	margin-left: 4px;
+	float: left;
+}
+
+.new-message{
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+	/* font-size: 20px; */
+}
+
+@media (min-width: 250px) and (max-width: 450px){	
+.heading-fav{
+	font-size: 24px;
+	margin-left: 0px;
+}
+
+.new-message{
+	font-size: 15px;
+	margin-top: 22px;
+}
+}
+
+@media (min-width: 451px) and (max-width: 800px){
+.heading-fav{
+	margin-left: 0px;
+}
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit an Ad</title>
+	<link rel="stylesheet" type="text/css" href="../css/authentication-styling.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="../css/dashboard-styling.css">
+	<link rel="stylesheet" type="text/css" href="../css/index-styling.css">
+</head>
+<body>
+	<header class="header">	
+		<a href="../index.html">
+        	<img src="../assets/logo.png" class="logo">      
+        </a>
+		<h5 class="title">Pakistan's Largest Marketplace</h5>
+		<button type="button" class="btn btn-primary nevigateLogin" onclick="gotoHome()">See More Ads</button>
+		<!-- <button type="button" class="btn btn-danger logout" onclick="logOut()" id="btnLogout">Logout</button> -->
+		<div class="dropdown" id="myaccounts">
+  			<button id="showname" class="showname">My Account</button>
+  				<div>
+    				<a href="../faviorites/faviorites.html">Faviorites</a>
+    				<a href="../mychats/mychats.html">Chats</a>
+    				<a href="../myads/myads.html">My Ads</a>
+    				<button type="button" class="btn btn-danger" onclick="logOut()">Logout</button>
+  				</div>
+			</div>
+	</header>
+
+	<br/>
+	<br/>
+
+	<div class="container">
+		<h4 class="ad-heading">Submit an Ad</h4>
+		<form onsubmit="sumbitAnAdd(event)">
+			<input type="text" class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2" id="txtAdTitle" placeholder="Ad Title....." required="required">
+			<br/>
+			<br/>
+			<select class="form-control col-lg-8 col-sm-12  float-left margin-fileds mt-2" required="required" id="selectCatagory">
+				<option value="-----Select Catagory-----">-----Select Catagory-----</option>
+				<option value="Mobiles">Mobiles</option>
+				<option value="Bikes">Bikes</option>
+				<option value="Cars">Cars</option>
+				<option value="Electronics">Electronics</option>
+				<option value="Furniture">Furniture</option>
+				<option value="Jobs">Jobs</option>
+				<option value="Animals">Animals</option>
+				<option value="Homes">Homes</option>
+				<option value="Books">Books</option>
+				<option value="Kids">Kids</option>
+				<option value="Services">Services</option>
+				<option value="Fashion">Fashion</option>	
+			</select>		
+			<br/>
+			<br/>
+			<textarea class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2 textArea" placeholder="Ad Description....." required="required" id="txtAdDescription"></textarea>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<input type="file" class="btn btn-primary float-left choose-file mt-2" multiple="multiple" required="required" id="selectFile">
+			<br/>
+			<br/>
+			<input type="number" class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2" id="txtPrice" placeholder="Price....." required="required">
+			<br/>
+			<br/>
+			<input type="text" class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2" id="txtName" placeholder="Name....." required="required" readonly="readonly">
+			<br/>
+			<br/>
+			<input type="number" class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2" id="txtPhone" placeholder="Phone....." required="required" readonly="readonly">
+			<br/>
+			<br/>
+			<input type="text" class="form-control col-lg-8 col-sm-12 float-left margin-fileds mt-2" id="txtCity" placeholder="City....." required="required" readonly="readonly">
+			<br/>
+			<br/>
+			<button type="submit" class="btn btn-warning btnSubmit mt-2" id="btnAdSumbit">Submit</button>
+		</form>
+	</div>
+	<hr/>
+    	<center>
+    		<span class="footer-text">OLX PAKISTAN BECH DY :)</span>		    			
+    	</center>
+    	<span class="developer">Developed By: Hasnain Ali</span>
+    <hr/>
+</body>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+	<script type="text/javascript" src="../js/dashboard.js"></script>
+</html>

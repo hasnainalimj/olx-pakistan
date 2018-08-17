@@ -1,0 +1,164 @@
+.container{
+	height: auto;
+}
+
+.ads-titles{
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.ads-images{
+	width: 150px;
+	height: 150px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-left: 40px;
+	padding: 10px;
+	transition: transform .2s;
+}
+
+.ads-images:hover{
+	width: 250px;
+	height: 250px;
+	transform: scale(1.5);	
+}
+
+.ads-city{
+	margin-left: 40px;
+	float: left;
+	font-weight: bold;
+}
+
+.ads-id{
+	float: left;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.ads-date{
+	float: left;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.ads-catagory{
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.ads-description{
+	margin-left: 40px;
+	width: 500px;
+	height: auto;
+}
+
+.here-city{
+	color: #2965be;
+}
+
+.here-id{
+	color: #2965be;
+}
+
+.here-date{
+	color: #2965be;
+}
+
+.here-catagory{
+	color: #2965be;
+}
+
+.adder-details{
+	width: 500px;
+	height: auto;
+	margin-left: 40px;
+}
+
+.adder-name{
+	font-weight: bold;
+}
+
+.adder-phone{
+	font-weight: bold;
+}
+
+.adder-price{
+	font-weight: bold;
+}
+
+.btnSendMessage{
+	font-weight: bold !important;
+	color: #FFF !important;
+	margin-left: 40px;
+}
+
+.general{
+	display: none !important;
+}
+
+@media (min-width: 250px) and (max-width: 420px){
+
+.ads-titles{
+	margin-top: 50px;
+	margin-left: 0px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.ads-city{
+	margin-left: 0px;
+	float: left;
+	font-weight: bold;
+}
+
+.ads-id{
+	float: left;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.ads-date{
+	float: left;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.ads-images{
+	width: 120px;
+	height: 120px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-left: 70px;
+	transition: transform .2s;
+}
+
+.ads-images:hover{
+	width: 170px;
+	height: 170px;
+	transform: scale(1.5);	
+}
+
+.ads-catagory{
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.ads-description{
+	margin-left: 0px;
+	width: 270px;
+	height: auto;
+}
+
+.adder-details{
+	width: 270px;
+	height: auto;
+	margin-left: 0px;
+}
+
+.btnSendMessage{
+	font-weight: bold !important;
+	color: #FFF !important;
+	width: 270px;
+}
+
+}

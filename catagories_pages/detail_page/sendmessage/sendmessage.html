@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OLX-Chat</title>
+	<link rel="stylesheet" type="text/css" href="css/sendmessage.css">
+	<link rel="stylesheet" type="text/css" href="../../../css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="shortcut icon" href="../../../assets/logo.png" type="image/x-icon" />
+</head>
+<body>
+	<header class="chat-header">
+		<img src="../../../assets/back-arrow.png" class="arrow-icon" onclick="goBack()">
+		<img src="../../../assets/user-icon.png" class="user-icon">
+		<h3 class="user-name" id="chat-name"></h3>
+	</header>
+	<div class="message-container" id="container-message">
+	
+		<!-- <div class="message1">
+			Hi
+			<br>
+			<p class="name">Hasnain Ali<p>
+		</div> -->
+		<!-- <div class="message2">
+			Hi 2
+		</div> -->
+		
+		
+
+		<!-- <div class="message1">
+			How are u?
+		</div>
+		<div class="message2">
+			I m fine and u
+		</div>
+
+		
+		
+		<div class="message1">
+			yes i'm good
+		</div>
+		<div class="message2">
+			so whats going on?
+		</div>
+
+		
+		
+		
+		<div class="message1">
+			bhai kia krna hy match ka kal match hy sb time py ajana or match fees lana mt bhoolna ok timing pta hy na sb ko to yad sy ajana.
+		</div>
+		<div class="message2">
+			han han bhai pta hy ajaye gy ap fikr na kro or in sha allah jeet b jaye gy ok to kal milty hen.
+		</div>
+		
+		
+		
+		<div class="message1">
+			ok bhai allah hafiz
+		</div>
+		<div class="message2">
+			allah hafiz
+		</div>
+
+		<div class="message1">
+			han kaha ho
+		</div>
+		<div class="message1">
+			jaldi ao
+		</div>
+		<div class="message2">
+			rasty m
+		</div>
+		<div class="message2">
+			Q kia hua
+		</div> -->
+
+	</div>
+	<footer class="chat-footer">
+		<form>
+			<input type="text" class="form-control col-md-12 float-left input-field" id="txtMessage" placeholder="Type Your Message.....">
+			<button type="submit" class="btn btn-primary float-right mt-2 mr-2 loader btnSender" onclick="sendMessage(event)" id="btnSendMessage">Send</button>
+		</form>
+		
+	</footer>
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase-messaging.js"></script>
+<script type="text/javascript" src="js/sendmessage.js"></script>
+</html>
